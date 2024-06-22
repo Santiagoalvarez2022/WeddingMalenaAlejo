@@ -3,7 +3,6 @@ import { useParams } from 'react-router-dom'
 import style from "./styles/Form.module.css"
 import Flowers from '../components/Flowers/Flowers';
 import ButtonNavegation from "../components/button_back/ButtonNavegation"
-import { update_gift } from '../service/apiGift';
 
 
 
