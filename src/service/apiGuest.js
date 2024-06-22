@@ -27,7 +27,6 @@ export const confirm_guest = async(id) =>{
 
         //modifico lista
         const data = await axios.patch(`https://sheet.best/api/sheets/051414f2-6ae3-43d7-92b9-e1f94c80c419/${id}`,{Asiste:"SI"})
-        console.log("aaa",data);
         return data
 
     } catch (error) {
